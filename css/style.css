@@ -343,26 +343,15 @@ body{
 }
 
 
-@media only screen and (max-width: 1000px){
-    .photo55 {
-        width: 150px;
-        height: 150px;
-    }
-
-    .header-content{
-        padding-top: 219px;
-    }
+@media only screen and (max-width: 400px){
+  
     .header-content_title{
-        font-size: 150px;
+        font-size: 70px;
     }
-    .header-btn{
-        width: 130px;
-        height: 130px;
-        border: 4px solid #fff;
+    .statistics-item__title{
+        margin-top: 20px;
     }
-    .header-btn div {
-        width: 70px;
-        height: 4px;
-        margin: 10px 0;
+    .statistics-items{
+        flex-direction: column;
     }
   }
