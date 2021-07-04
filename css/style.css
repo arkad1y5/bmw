@@ -343,7 +343,16 @@ body{
 }
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 720px){
+    .statistics-items{
+        flex-wrap: wrap;
+    } 
+    .statistics-item__title{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 520px){
   
     .header-content_title{
         font-size: 55px;
@@ -351,9 +360,7 @@ body{
     .statistics-item__title{
         margin-top: 20px;
     }
-    .statistics-items{
-        flex-direction: column;
-    }
+    
     .menu-list a{
         font-size: 20px;
         line-height: 30px;
