@@ -346,12 +346,18 @@ body{
 @media only screen and (max-width: 400px){
   
     .header-content_title{
-        font-size: 70px;
+        font-size: 55px;
     }
     .statistics-item__title{
         margin-top: 20px;
     }
     .statistics-items{
         flex-direction: column;
+    }
+    .menu-list a{
+        font-size: 20px;
+        line-height: 30px;
+        padding: 22px 25px 14px 0;
+        min-width: 227px;
     }
   }
